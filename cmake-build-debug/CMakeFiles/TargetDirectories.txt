@@ -1,0 +1,3 @@
+/Users/radu/Developer/IEP/CampusVirtual/cmake-build-debug/CMakeFiles/CampusVirtual.dir
+/Users/radu/Developer/IEP/CampusVirtual/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/radu/Developer/IEP/CampusVirtual/cmake-build-debug/CMakeFiles/rebuild_cache.dir
