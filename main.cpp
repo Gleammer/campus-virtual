@@ -12,10 +12,12 @@ int main() {
     Student s3 = s2;
     s3.print();
 
-    Account a1, a2("Name", "Username", "E-mail", 22);
+    Account a1, a2("Name", "Username", "E-mail", 22), a3;
     a1.print();
     a2.print();
 
+    // a3 = a2;
+    // a3.print();
 
     return 0;
 }
