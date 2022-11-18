@@ -2,7 +2,7 @@
 
 class NonCopyable
 {
-    NonCopyable(const NonCopyable &);
+    // NonCopyable(const NonCopyable &);
     NonCopyable& operator=(const NonCopyable &);
 
     protected:
