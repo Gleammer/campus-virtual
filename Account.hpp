@@ -2,19 +2,20 @@
 
 class NonCopyable
 {
+    NonCopyable(const NonCopyable &);
+    NonCopyable& operator=(const NonCopyable &);
+
     protected:
     NonCopyable() {}
     ~NonCopyable() {}
-    private: 
-    NonCopyable(const NonCopyable &);
-    NonCopyable& operator=(const NonCopyable &);
 };
 
 class Account : private NonCopyable {
-    private:
     std::string name, username, email;
     int age;
+
     public:
     Account();
+    Account(std::string name, std::string username, std::string email, int age);
     void print();
 };
