@@ -416,4 +416,5 @@ CMakeFiles/CampusVirtual.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Users/radu/Developer/IEP/CampusVirtual/Student.cpp \
   /Users/radu/Developer/IEP/CampusVirtual/Student.hpp \
+  /Users/radu/Developer/IEP/CampusVirtual/Account.cpp \
   /Users/radu/Developer/IEP/CampusVirtual/Account.hpp
