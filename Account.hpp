@@ -17,5 +17,6 @@ class Account : private NonCopyable {
     public:
     Account();
     Account(std::string name, std::string username, std::string email, int age);
+    std::string getName();
     void print();
 };

@@ -16,5 +16,5 @@ Student& Student::operator=(const Student& rhs){
 }
 
 Student::~Student(){
-    std::cout << "Student destructor";
+    std::cout << "Student destructor for: " << this->getName() << "\n";
 }
