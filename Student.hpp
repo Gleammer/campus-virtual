@@ -15,6 +15,6 @@ class Student: private Account {
     Student();
     Student(double gpa, int graduation_year);
     Student& operator=(const Student& rhs);
-    // Student(double gpa, int graduation_year, std::string name, std::string username, std::string email, int age);
+    ~Student();
     void print();
 };

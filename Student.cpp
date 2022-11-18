@@ -14,3 +14,7 @@ Student& Student::operator=(const Student& rhs){
     graduation_year = rhs.graduation_year;
     return *this;
 }
+
+Student::~Student(){
+    std::cout << "Student destructor";
+}
