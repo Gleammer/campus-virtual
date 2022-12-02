@@ -57,7 +57,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/radu/Developer/IEP/CampusVirtual
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/radu/Developer/IEP/CampusVirtual/build
+CMAKE_BINARY_DIR = /Users/radu/Developer/IEP/CampusVirtual
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/CampusVirtual.dir/clean
 CMakeFiles/CampusVirtual.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusVirtual.dir/build.make CMakeFiles/CampusVirtual.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusVirtual.dir/build.make CMakeFiles/CampusVirtual.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/radu/Developer/IEP/CampusVirtual/build/CMakeFiles --progress-num=1,2 "Built target CampusVirtual"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/radu/Developer/IEP/CampusVirtual/CMakeFiles --progress-num=1,2 "Built target CampusVirtual"
 .PHONY : CMakeFiles/CampusVirtual.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CampusVirtual.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/radu/Developer/IEP/CampusVirtual/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/radu/Developer/IEP/CampusVirtual/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CampusVirtual.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/radu/Developer/IEP/CampusVirtual/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/radu/Developer/IEP/CampusVirtual/CMakeFiles 0
 .PHONY : CMakeFiles/CampusVirtual.dir/rule
 
 # Convenience name for target.

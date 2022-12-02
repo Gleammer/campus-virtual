@@ -1,16 +1,11 @@
 #include "Account.cpp"
 
-// typedef struct Subject
-// {
-//     std::string name;
-//     std::vector<int> grades;
-// };
-
 typedef std::vector<std::string> BaseSubjectNode;
 
 class Student: private Account {
     double gpa;
     int graduation_year;
+
     public:
     Student();
     Student(double gpa, int graduation_year);
